@@ -1,0 +1,80 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #DBFB96 !important;
+}
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar-nav a{
+    color: white !important; 
+    font-size: 18px;
+}
+
+.navbar-brand{
+    color: white !important; 
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: max-content;
+    height: 94vh;
+    justify-content: space-between;
+}
+
+.about-container{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+}
+
+.text{
+    color: black;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.navbar{
+    background-color: black;
+    padding: 10px;
+}
+
+.button{
+    margin-top: 1rem;
+    width: 35%;
+    height: 40px;
+    border-radius: 5px;
+    color: white;
+    border: 2px black solid;
+    background-color: black;
+}
+
+.image-container{
+    display: flex;
+}
+
+.navbar{
+    height: 80px;
+}
+
+.desc{
+    font-weight: 600;
+}
+
+.contact{
+    color: black;
+    background-color: white;
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    font-weight: bold;
+    border: none;
+    font-size: 13px;
+}
